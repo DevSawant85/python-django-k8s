@@ -17,6 +17,6 @@ spec:
       containers:
       - name: python-app
         image: devsawant85/python-sample-app-demo:v1
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
